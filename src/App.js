@@ -238,7 +238,7 @@ function App() {
                                         ...provided.draggableProps.style
                                       }}
                                     >
-                                      <img className="champ" src={require(`./components/images/champion/${item.content}.png`)} />
+                                      <img className="champ" alt="champ" src={require(`./components/images/champion/${item.content}.png`)} />
                                     </div>
                                   )
                                 }}
